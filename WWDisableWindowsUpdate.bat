@@ -21,3 +21,9 @@ net stop wuauserv
 
 echo Disabling Windows Update service...
 sc config wuauserv start=disabled
+
+echo Windows Update service has been stopped and disabled.
+echo Windows Update off successfully.
+
+echo Software development by "WalidDeveloper.com"
+pause
